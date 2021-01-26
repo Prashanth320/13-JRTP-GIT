@@ -1,7 +1,11 @@
 public class demo{
 
 	public static void mail(String[] args){
-
+		Demo d=new Demo();
+		d.foo();
  		System.out.println("Welcome to Git");
  	}
+	public void foo(){
+		System.out.println("Hi Java");
+	}
 }
